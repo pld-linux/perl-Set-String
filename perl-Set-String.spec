@@ -9,7 +9,7 @@ Summary:	Set::String - strings as objects with lots of handy methods
 Summary(pl):	Set::String - ³añcuchy jako obiekty z wieloma porêcznymi metodami
 Name:		perl-Set-String
 Version:	0.03
-Release:	2
+Release:	3
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
