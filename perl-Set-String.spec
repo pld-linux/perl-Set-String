@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	String
-Summary:	Set::String - Strings as objects with lots of handy methods
+Summary:	Set::String - strings as objects with lots of handy methods
 Summary(pl):	Set::String - ³añcuchy jako obiekty z wieloma porêcznymi metodami
 Name:		perl-Set-String
 Version:	0.03
