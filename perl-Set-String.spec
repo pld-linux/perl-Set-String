@@ -1,14 +1,15 @@
 #
 # Conditional build:
 # _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	String
 Summary:	Set::String - Strings as objects with lots of handy methods
 Summary(pl):	Set::String - ³añcuchy jako obiekty z wieloma porêcznymi metodami
 Name:		perl-Set-String
-Version:	0.01
-Release:	2
+Version:	0.03
+Release:	1
 License:	?
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -36,7 +37,7 @@ Dodatkowo s± metody Set z odpowiadaj±cymi (przeci±¿onymi) operatorami
 do porównywania, np. +, == itd.
 
 %prep
-%setup -q -n %{pdir}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
