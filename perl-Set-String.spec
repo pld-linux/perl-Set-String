@@ -10,7 +10,7 @@ Summary(pl):	Set::String - ³añcuchy jako obiekty z wieloma porêcznymi metodami
 Name:		perl-Set-String
 Version:	0.03
 Release:	2
-License:	?
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	bc5fcfac9d732707418b6860bc7ece7d
