@@ -6,7 +6,7 @@
 %define		pdir	Set
 %define		pnam	String
 Summary:	Set::String - strings as objects with lots of handy methods
-Summary(pl):	Set::String - ³añcuchy jako obiekty z wieloma porêcznymi metodami
+Summary(pl.UTF-8):   Set::String - Å‚aÅ„cuchy jako obiekty z wieloma porÄ™cznymi metodami
 Name:		perl-Set-String
 Version:	0.03
 Release:	3
@@ -30,12 +30,12 @@ in the FAQ's, the Perl Cookbook or posts from comp.lang.perl.misc.
 In addition, there are Set methods with corresponding (overloaded)
 operators for the purpose of Set comparison, i.e. +, ==, etc.
 
-%description -l pl
-Set::String pozwala na tworzenie ³añcuchów jako obiektów i u¿ywanie na
-nich metod. Dostêpnych jest wiele wygodnych metod, które podane s± w
+%description -l pl.UTF-8
+Set::String pozwala na tworzenie Å‚aÅ„cuchÃ³w jako obiektÃ³w i uÅ¼ywanie na
+nich metod. DostÄ™pnych jest wiele wygodnych metod, ktÃ³re podane sÄ… w
 FAQ-ach, Perl Cookbook oraz postach z grupy comp.lang.perl.misc.
-Dodatkowo s± metody Set z odpowiadaj±cymi (przeci±¿onymi) operatorami
-do porównywania, np. +, == itd.
+Dodatkowo sÄ… metody Set z odpowiadajÄ…cymi (przeciÄ…Å¼onymi) operatorami
+do porÃ³wnywania, np. +, == itd.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
