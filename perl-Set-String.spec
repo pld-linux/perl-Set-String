@@ -9,7 +9,7 @@ Summary:	Set::String - strings as objects with lots of handy methods
 Summary(pl.UTF-8):	Set::String - łańcuchy jako obiekty z wieloma poręcznymi metodami
 Name:		perl-Set-String
 Version:	0.03
-Release:	3
+Release:	4
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
