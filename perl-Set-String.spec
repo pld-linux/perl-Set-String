@@ -4,7 +4,6 @@
 
 %define		pdir	Set
 %define		pnam	String
-%include	/usr/lib/rpm/macros.perl
 Summary:	Set::String - strings as objects with lots of handy methods
 Summary(pl.UTF-8):	Set::String - łańcuchy jako obiekty z wieloma poręcznymi metodami
 Name:		perl-Set-String
